@@ -1,0 +1,11 @@
+{
+    "name": "Your project Dev",
+    "image": "mcr.microsoft.com/devcontainers/go:latest",
+    "extensions": [
+        "golang.go",
+    ],
+    "settings": {
+        "go.useLanguageServer": true
+    },
+    "postCreateCommand": "go mod download",
+}
